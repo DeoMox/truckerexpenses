@@ -63,7 +63,7 @@ function renderExpenses() {
     item.className = `expense ${exp.amount >= 0 ? 'income' : 'expense'}`;
     item.innerHTML = `
       <span>${exp.description} - $${exp.amount} (${exp.date})</span>
-      <div>
+      <div class="editdelet">
         <button class="edit-btn" onclick="editExpense(${exp.id})">Edit</button>
         <button class="delete-btn" onclick="deleteExpense(${exp.id})">Delete</button>
       </div>

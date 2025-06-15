@@ -13,18 +13,19 @@
 
 </head>
 <body>
-<nav class="navbar">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
+ <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <h1>Expense Tracker</h1>
 
   <form id="expense-form">
     <input type="text" id="description" placeholder="Description" required />
-    <input type="number" id="amount" placeholder="Amount (e.g. -50 or 100)" required />
+    <input type="number" id="amount" placeholder="Amount " required />
     <input type="date" id="date" required />
     <button type="submit">Add Expense</button>
   </form>
@@ -32,6 +33,15 @@
   <div id="expenses-list"></div>
 
   <div id="total">Total Balance: $0.00</div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a team committed to delivering excellent services and creating value for our users.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Have questions or feedback? Reach out to us through our contact form or email us directly.</p>
+  </section>
   <footer class="footer">
   <p>Connect with us:</p>
   <div class="social-icons">
