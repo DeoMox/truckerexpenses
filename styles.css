@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#expenses-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.expense {
+  background-color: #ffe0e0;
+}
+
+.income {
+  background-color: #e0ffe0;
+}
+
+#total {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 30px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.2);
+  color: #00aced; /* A light blue hover effect */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+  <h1>Expense Tracker</h1>
+
+  <form id="expense-form">
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="number" id="amount" placeholder="Amount (e.g. -50 or 100)" required />
+    <input type="date" id="date" required />
+    <button type="submit">Add Expense</button>
+  </form>
+
+  <div id="expenses-list"></div>
+
+  <div id="total">Total Balance: $0.00</div>
+  <footer class="footer">
+  <p>Connect with us:</p>
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://twitter.com" target="_blank" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
